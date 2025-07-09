@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",                    // ✅ allow absolute paths
+    "paths": {
+      "@/*": ["src/*"]                // ✅ enables "@/" alias
+    },
+    "jsx": "react-jsx",               // ✅ needed for JSX
+    "module": "ESNext",
+    "target": "ESNext",
+    "moduleResolution": "bundler",   // for Vite
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src"]
+}
